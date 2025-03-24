@@ -1,0 +1,188 @@
+body{
+    background-image: url(img/pje_logo_ofc.png), linear-gradient(0deg, rgba(134,133,133,1) 0%, rgba(163,173,173,1) 30%, rgba(184,212,218,1) 100%);
+    background-color: rgba(134,133,133,1);
+    background-size: 35%, 100%;
+    background-repeat: no-repeat;
+    background-position: 50% 45%;
+    display: flex;
+    flex-direction: column;
+    column-gap: 100px;
+    overflow-y: hidden;
+    margin: 0px;
+    padding: 0px;
+}
+
+.linha{
+    display: flex;
+    flex-direction: row;
+    margin:5px;
+}
+
+div#topo{
+    height: 1vw;
+    width: 100%px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: end;
+}
+
+
+div#dados_linhas{
+    width: 100%px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: start;
+
+}
+
+div#dados_horizontal{
+    width: 100%px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 0px;
+    padding: 0px;
+}
+
+.titulo{
+    margin: 0px;
+}
+
+.text_ex{
+    margin: 0px;
+    padding: 5px;
+    text-decoration: none;
+    text-align: center;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+div#fileira_botoes{
+    display: flex;
+    flex: row;
+    justify-content: center;
+    padding: 0px;
+}
+
+.coluna_lateral{
+    margin: 10px;
+    text-align: center;
+
+}
+
+.coluna_topo{
+    align-items: start;
+}
+h1{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 40px;
+}
+
+h2{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif ;
+    font-weight: bold;
+    color: white;
+}
+
+p{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: white;
+}
+
+.link-card {
+    border-radius: 8px;
+    background-size: 30%;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin: 10px 10px 0px 10px;
+    height: 30px;
+    width: 150px;
+    text-align: center;
+    padding: 20px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.2);
+    margin-top: 20px;
+}
+
+.link-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.2);
+}
+
+.pje_image1{
+    background-image: url(img/logo-pje.png);
+    background-color: rgb(167, 157, 157);
+}
+
+.pje_image2{
+    background-image: url(img/logo-pje.png);
+    background-color: rgb(40, 187, 40);
+}
+
+.pje_image3{
+    background-image: url(img/logo-pje.png);
+    background-color: rgb(217, 215, 215);
+}
+
+.pje_image4{
+    background-image: url(img/logo-pje.png);
+    background-color: rgb(142, 137, 238);
+}
+
+.cnj{
+    background-image: url(img/cnj.png);
+    background-color: rgb(167, 157, 157);
+}
+
+.tjce{
+    background-image: url(img/tj-ce.webp);
+    background-color: rgb(40, 187, 40);
+}
+
+.tjnet{
+    background-image: url(img/Logo-TJCE.png);
+    background-color: rgb(217, 215, 215);
+    background-size: 60%;
+}
+
+.cna{
+    background-image: url(img/oab.gif);
+    background-size: 40%;
+    background-color: rgb(142, 137, 238);
+}
+
+.colaboradores{
+    background-image: url(img/onedrive-logo.png);
+    background-size: 80%;
+    background-color: rgb(142, 137, 238);
+}
+
+.cati{
+    background-image: url(img/cati.png);
+    background-color: rgb(73, 135, 188);
+}
+
+.outlook{
+    background-image: url(img/outlook.png);
+}
+
+.teams{
+    background-image: url(img/teams.png);
+    background-color: rgb(73, 135, 188);
+}
+
+.excel{
+    background-image: url(img/excel.png);
+    background-color: rgb(217, 215, 215);
+}
+
+.outlook{
+    background-color: rgba(255, 255, 255, 0.789);
+}
